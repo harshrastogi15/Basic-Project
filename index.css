@@ -1,0 +1,191 @@
+body{
+    background-color: #d1c7c7;
+    
+}
+
+header {
+    color: beige;
+    background-color: rgba(0, 0, 0, 1);
+    /* margin: 0%; */
+    padding:0.1px 10px .1px 10px;
+    height: 50px;
+    width: 100%;
+    position: relative;
+}
+
+header h2{
+    font-size: 20px;
+    
+}
+
+header li{
+    list-style: none;
+
+}
+
+header a {
+    color: #ffffff;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 3px;
+    height: fit-content;
+    border:0%;
+    float: right;
+}
+
+header a:hover{
+    color: #000000;
+    background-color: #d7e8fa;
+    border: 1px solid #d7e8fa;
+}
+
+#la{
+    position:absolute ;
+    top: 5px;
+    right: 255px;
+    width: 70px;
+}
+
+#lb{
+    position: absolute;
+    top: 5px;
+    right: 185px;
+    width: 40px;
+}
+
+#lc{
+    position: absolute;
+    top: 5px;
+    right: 110px;
+    width: 45px;
+}
+
+#ld{
+    position: absolute;
+    top: 5px;
+    right: 30px;
+    width: 50px;
+}
+
+.smedia{
+    text-align: center;
+    font-size: 30px;
+    text-transform: capitalize;
+}
+
+.sm{
+    padding-left: 10px;
+}
+
+.fa{
+    padding: 10px;
+    color: #fffaf0;
+    width: fit-content;
+    height: fit-content;
+    border: 5px solid rgb(255, 250, 240);
+    border-radius: 10px;
+}
+
+.fa:hover{
+    color: #ffd700;
+    background-color: #c0c0c0;
+    border: 5px solid #ffd700;
+    border-radius: 10px;
+}
+
+.img{
+    height: fit-content;
+    width: fit-content;
+    
+}
+
+.middle{
+    padding: 4px;
+    background-color: #d1c7c7;
+}
+
+.intro h3{
+    color: rgb(52, 53, 128);
+    font-style: italic;
+    font-size: 30px;
+}
+
+.intro h1{
+    color: #800000;
+    font-style: italic;
+    font-size: 50px;
+    font-weight: 900;
+}
+
+.intro p{
+    color: #9370d8;
+    font-size: 20px;
+}
+
+.skills ,.hobby{
+
+    font-style: italic;
+    font-size: 20px;
+    color: rgb(40, 57, 92);
+}
+
+.projects{
+    text-transform: uppercase;
+}
+
+footer{
+    background-color: #ccbaba;
+    padding: 2px;
+}
+
+form{
+    color: rgb(30, 59, 59);
+    margin: auto;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+form label{
+    font-size: 20px;
+    font-weight: normal;
+}
+
+form input,form select{
+    color: rgb(11, 12, 14);
+    background-color: #f0e4f0;
+    margin: .5%;
+}
+
+.contact{
+    color: #2a2825;
+    text-align: right;
+    padding-right: 30px;
+}
+
+.contact h4{
+    font-weight: 200;
+    font-size: 20px;
+}
+
+.contact label{
+    color: #928086;
+    font-size: 23px;
+    padding-right: 2%;
+}
+
+.contact span{
+    color: rgb(141, 132, 46);
+    font-size: 25px;
+    font-weight: bold;
+}
+
+
+.end{
+    color: rgb(107, 100, 100);
+    padding: 0.015px;
+    margin: 1%;
+    font-size: 20px;
+    font-weight: 900;
+    text-align: center;
+    text-transform: capitalize;
+}
