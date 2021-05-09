@@ -1,0 +1,41 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Game</title>
+    <link rel="stylesheet" href="color_game.css">
+</head>
+
+<body>
+    <div class="header">
+        <h3>The Great Color<span id="display"></span> Guessing Game</h3>
+    </div>
+    <div id="index">
+        <button id="restart">New Color</button>
+        <span id="result"></span>
+        <button class="easyBtn">Easy</button>
+        <button class="selected hardBtn">Hard</button>
+    </div>
+    <div id="container">
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div>
+    </div>
+    <div class="showResult">
+        <table id="showResultTable">
+            <h4>Rules</h4>
+            <p>Player got +5 point if player 
+            choose right color else -1 on every wrong move.
+            </br>Easy mode: Player got minimum 3 point or maximum 5 point.
+        </br>Hard mode: Player got minimum 0 point or maximum 5 point.</br>Play game carefully.
+            </p>
+        </table>
+    </div>
+    <script  src="color_game.js"></script>
+</body>
+
+</html>
