@@ -22,7 +22,7 @@ body{
 #search{
     right: 120px;
     border:3px solid rgb(107, 101, 101);
-    width: 10%;
+    width: 15%;
 }
 
 .input,.outsection{
@@ -100,6 +100,10 @@ body{
     padding: auto;
 }
 
+#date{
+    color: brown;
+}
+
 .out_notes h6{
     float: right;
     margin: 0%;
@@ -117,10 +121,9 @@ body{
 
 #about{
     clear: both;
-    float: right;
     height: auto;
     font-family: serif;
-    width: 35%;
+    width: 90%;
     background-color: rgb(238, 233, 225);
     margin: auto;
     padding: 5px;
@@ -130,4 +133,51 @@ body{
 .footer-link{
     text-align: right;
     color:black;
+}
+
+@media(max-width:450px){
+    #navbut{
+        display: none;
+    }
+
+    #search{
+        position: absolute;
+        border:3px solid rgb(107, 101, 101);
+        width: 20%;
+        top: 8px;
+        right: 10%;
+    }
+
+    #text{
+        width: 95%;
+        height: 45%;
+    }
+    
+    .tittle{
+        text-align: center;
+        height: fit-content;
+        width: 95%;
+    }
+
+    #date{
+        color: blue;
+    }
+    
+    .out_notes{
+        width: 100%;
+    }
+
+    .output{
+        font-size: 10px;
+    }
+
+    #about{
+        display: none;
+    }
+}
+
+@media(max-width:250px){
+    #search{
+        display: none;
+    }
 }

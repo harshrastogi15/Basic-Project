@@ -46,7 +46,7 @@ function shownotes(){
         html+=`<div class="out_notes">
             <h3>${element.Tittle}</h3> 
             <p>${element.Text}</p>
-            <h6>${element.date}</h6>
+            <h6 id="date">${element.date}</h6>
             <button id="${index}" onclick="DeleteNote(this.id)">Delete</button>
             </div>`;
     });
@@ -55,7 +55,7 @@ function shownotes(){
         notesElm.innerHTML = html;
     }
     else{
-        notesElm.innerHTML = `<h2>Here is no Note. let's begin to write some notes</h2>`;
+        notesElm.innerHTML = `<h2>Here is no note. let's begin to write some note</h2>`;
     }
 }
 
