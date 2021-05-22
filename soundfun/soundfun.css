@@ -1,0 +1,40 @@
+#myCanvas{
+    background-color: black;
+    resize: both;
+}
+
+body {
+    height: 100%;
+    background-color: rgb(0, 0, 0);
+}
+
+canvas[resize] {
+    width: 100%;
+    height: 100%;
+}
+
+div{
+    margin: auto;
+    width: fit-content;
+}
+
+#keypress{
+    border: 2px solid black;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    height: 20%;
+    max-width: 250px;
+    width: fit-content;
+    text-align: center;
+    margin: auto;
+    text-transform: capitalize;
+    border-radius: 10px;
+}
+
+#keypress:focus{
+    border: 2px solid black;
+    outline: none;
+}
+
+ 
